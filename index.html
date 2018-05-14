@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="index_files/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="index_files/bootstrap-theme.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="index_files/theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="index_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+    body {
+        background-image: url("index_files/wine2.png");
+
+        /* Center and scale the image nicely */
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+  </style>
+
+  <body style="background-color: #333;">
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Wine Quality DSS</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" data-toggle="modal" data-target="#about">About</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="panel bg-dark" style="background-color: #222; border-color: #111; padding: 2%;">
+
+
+          <div class="panel" style="background-color: #333; width: 100%; margin-bottom: auto; height: 40px;" id="myDIV">
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+            <center><h4 id="class"></center>
+
+
+          </div>
+
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <input id="Alcohol" autocomplete="off" name="Alcohol" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Alcohol">
+            <input id="Malic_acid" autocomplete="off" name="Malic_acid" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Malic acid">
+            <input id="Ash" autocomplete="off" name="Ash" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Ash">
+            <input id="Alcalinity_of_ash" autocomplete="off" name="Alcalinity_of_ash" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Alcalinity of ash">
+            <input id="Magnesium" autocomplete="off" name="Magnesium" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Magnesium">
+            <input id="Total_phenols" autocomplete="off" name="Total_phenols" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Total phenols">
+            <input id="Flavanoids" autocomplete="off" name="Flavanoids" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Flavanoids">
+
+          </div>
+          <div class="col-md-6">
+
+          <input id="Nonflavanoid_phenols" autocomplete="off" name="Nonflavanoid_phenols" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Nonflavanoid phenols">
+          <input id="Proanthocyanins" autocomplete="off" name="Proanthocyanins" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Proanthocyanins">
+          <input id="Color_intensity" autocomplete="off" name="Color_intensity" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Color intensity">
+          <input id="Hue" autocomplete="off" name="Hue" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Hue">
+          <input id="OD280_OD315_of_diluted_wines" autocomplete="off" name="OD280_OD315_of_diluted_wines" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="OD280/OD315 of diluted wines">
+          <input id="Proline" autocomplete="off" name="Proline" type="text" class="form-control" style="margin-top: 2%; background-color: #333; border-color: #222; color: white;" placeholder="Proline">
+            <div class="row" style="margin-top: 1%;">
+              <div class="col-md-6">
+                <input type="submit" value="Submit" class="btn btn-md btn-block btn-danger" style="margin-top: 2%; color: #fff;" href="" role="button" onclick="check1(); color();" >
+              </div>
+              <div class="col-md-6">
+                <input type="submit" value="Test a new sample" class="btn btn-md btn-block btn-warning" style="margin-top: 2%; color: #fff;" href="" role="button" onclick="reload()" >
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> <!-- /container -->
+
+
+
+
+    <script>
+
+
+    function check1() {
+        var Alcohol = document.getElementById("Alcohol").value;
+        var Malic_acid = document.getElementById("Malic_acid").value;
+        var Ash = document.getElementById("Ash").value;
+        var Alcalinity_of_ash = document.getElementById("Alcalinity_of_ash").value;
+        var Magnesium = document.getElementById("Magnesium").value;
+        var Total_phenols = document.getElementById("Total_phenols").value;
+        var Flavanoids = document.getElementById("Flavanoids").value;
+        var Nonflavanoid_phenols = document.getElementById("Nonflavanoid_phenols").value;
+        var Proanthocyanins = document.getElementById("Proanthocyanins").value;
+        var Color_intensity = document.getElementById("Color_intensity").value;
+        var Hue = document.getElementById("Hue").value;
+        var OD280_OD315_of_diluted_wines = document.getElementById("OD280_OD315_of_diluted_wines").value;
+        var Proline = document.getElementById("Proline").value;
+
+        var grade;
+
+        if (Flavanoids <= 0.96) {
+          if (Proline <= 855) {
+            if (Malic_acid <= 2.23221) {
+              if (Nonflavanoid_phenols <= 0.47709) {
+                if (OD280_OD315_of_diluted_wines <= 3.266643) { grade = 2; } else { grade = 3;}
+              } else if (Nonflavanoid_phenols > 0.47709){grade = 3;}
+            } else if (Malic_acid > 2.23221) {
+              if (Alcalinity_of_ash <= 17.8) {
+                if (Malic_acid <= 2.76) {grade = 3;} else {grade = 1;}
+              } else if (Alcalinity_of_ash > 17.8) {grade = 3;}
+              }
+            } else if (Proline > 855)  {
+              if (Flavanoids <= 0.600351) {
+                if (Ash <= 2.44) {grade = 2;} else {grade = 3;}
+              } else if (Flavanoids > 0.600351) {grade = 1;}
+              }
+            } else if (Flavanoids > 0.96) {
+              if (Alcohol <= 12.77) {
+                if (Color_intensity <= 1.270901) {
+                  if (Flavanoids <= 2.19) {grade = 3;} else {grade = 1;}
+                } else if (Color_intensity > 1.270901) {
+                  if (OD280_OD315_of_diluted_wines <= 1.42) {
+                    grade = 3;
+                  } else if (OD280_OD315_of_diluted_wines > 1.42) {
+                    if (Color_intensity <= 3.08) {
+                      if (Proline <= 688.010077) {
+                        grade = 2;
+                      } else {
+                        if (Malic_acid <= 1.63) {grade = 2;} else {grade = 1;}
+                      }
+                    } else {
+                      if (Alcalinity_of_ash <= 13.243313) {
+                        if (Alcohol <= 12.25) {grade = 3;} else {grade = 1;}
+                      } else {
+                        if (Proline <= 771.728784) {
+                          if (Nonflavanoid_phenols <= 0.18352) {grade = 3;} else {grade = 2;}
+                        } else {
+                          if (Proanthocyanins <= 1.65574) {
+                            if (Proanthocyanins <= 0.88) {grade = 3;} else {grade = 2;}
+                          } else {
+                            if (Alcalinity_of_ash <= 23) {grade = 3;} else {grade = 2;}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              } else if (Alcohol > 12.77) {
+                if (Total_phenols <= 2.147424) {
+                  if (Magnesium <= 93.141833) {
+                    if (Malic_acid <= 3.041662) {grade = 2;} else {grade = 1;}
+                  } else {
+                    if (OD280_OD315_of_diluted_wines <= 2.341752) {
+                      grade = 3;
+                    } else {
+                      if (Color_intensity <= 3.584991) {
+                        if (Nonflavanoid_phenols <= 0.22213) {grade = 3;} else {grade = 1;}
+                      } else {
+                        if (Color_intensity <= 6.813496) {grade = 2;} else {grade = 3;}
+                      }
+                    }
+                  }
+                } else if (Total_phenols > 2.147424) {
+                  if (Proanthocyanins <= 1.06) {
+                    grade = 2;
+                  } else {
+                    if (Nonflavanoid_phenols <= 0.5) {
+                      if (Hue <= 0.67) {
+                        if (Ash <= 2.45) {grade = 2;} else {grade = 3;}
+                      } else {
+                        if (Hue <= 1.25) {
+                          if (Proline <= 506.283927) {
+                            if (OD280_OD315_of_diluted_wines <= 3.35) {
+                              if (Ash <= 2.314731) {grade = 2;} else {grade = 3;}
+                            } else {grade = 1;}
+                          } else {
+                            if (Flavanoids <= 2.358625) {
+                              if (OD280_OD315_of_diluted_wines <= 2.48) {
+                                grade = 1;
+                              } else {
+                                if (Magnesium <= 101.210523) {
+                                  grade = 1;
+                                } else {
+                                  if (Flavanoids <= 1.648104) {grade = 1;} else {grade = 3;}
+                                }
+                              }
+                            } else {
+                              grade = 1;
+                            }
+                          }
+                        } else {
+                          grade = 2;
+                        }
+                      }
+                    } else {
+                      grade = 3;
+                    }
+                  }
+                }
+              }
+            }
+
+            if (grade == 1) {
+                text = "Wine Class: 1";
+                document.getElementById("class").innerHTML = text;
+                document.getElementById("myDIV").style.color = "#3C765A";
+                document.getElementById("myDIV").style.backgroundColor = "#B2DBA1";
+
+
+            } else if (grade == 2) {
+                text = "Wine Class: 2";
+                document.getElementById("class").innerHTML = text;
+                document.getElementById("myDIV").style.color = "#8A6D3B";
+                document.getElementById("myDIV").style.backgroundColor = "#F5E79E";
+
+            } else {
+                text = "Wine Class: 3";
+                document.getElementById("class").innerHTML = text;
+                document.getElementById("myDIV").style.color = "#C04442";
+                document.getElementById("myDIV").style.backgroundColor = "#DCA7A7";
+
+            }
+
+
+    }
+
+    function reload() {
+        location.reload();
+    }
+
+
+
+    </script>
+
+
+
+    <!-- Modal -->
+    <div id="about" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">About</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="contact" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contact</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="index_files/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="index_files/bootstrap.js"></script>
+    <script src="index_files/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="index_files/ie10-viewport-bug-workaround.js"></script>
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="1140" height="500" viewBox="0 0 1140 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="57" style="font-weight:bold;font-size:57pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thirdslide</text></svg></body></html>
+
+</body></html>
